@@ -36,11 +36,11 @@ jobs:
           echo test, and deploy your project.
           
 
-      - uses: actions/checkout@v2
+
 
       - uses: actions/download-artifact@v2
          with：
-          name: my-artifact
+          name：myartifact
       
       - name: Display structure of downloaded files
         run: ls -R
